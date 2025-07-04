@@ -2,7 +2,7 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-GSF is a lightweight, general-purpose low-code service framework developed using Java and Spring Boot. It aims to help developers easily build maintainable and scalable server-side applications.\
+GSF is a lightweight, general-purpose low-code service framework developed using Java and Spring Boot. It aims to help developers easily build maintainable and scalable server-side applications.
 
 With the GSF framework, you can quickly accomplish the following tasks:
 

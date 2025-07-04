@@ -2,7 +2,8 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-GSF是一个轻量级通用低代码服务框架，使用Java语言和Spring Boot开发，旨在帮助开发者快速构建易维护、可扩展的服务端应用。\
+GSF是一个轻量级通用低代码服务框架，使用Java语言和Spring Boot开发，旨在帮助开发者快速构建易维护、可扩展的服务端应用。
+
 通过GSF框架，您可以快速完成以下任务：
 - 创建标准RESTful风格的API接口
 - 提供统一CRUD操作的服务

@@ -46,8 +46,8 @@ You are free to:
 
 ## Report bugs
 
-Join “Shimi General Service Framework” project to submit bugs: [https://www.gogoscrum.com/invitations/9tXDjj4CyM4M]
+Join “GSF” project to submit bugs: [https://www.gogoscrum.com/invitations/9tXDjj4CyM4M]
 
 ## Developers community
 
-Join #GSF developer group on Discord: [https://discord.gg/FBdf43BZ]
+Join GSF developer group on Discord: [https://discord.gg/FBdf43BZ]

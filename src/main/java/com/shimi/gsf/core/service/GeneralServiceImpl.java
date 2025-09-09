@@ -68,7 +68,6 @@ public abstract class GeneralServiceImpl<T extends Entity, K extends Filter> ext
         }
 
         T savedEntity = getRepository().save(entity);
-        getRepository().flush();
         log.info("Created {}", savedEntity);
 
         eventPublisher.publishEvent(new EntityChangeEvent(this, null, savedEntity, EntityChangeEvent.ActionType.CREATE));
@@ -107,7 +106,6 @@ public abstract class GeneralServiceImpl<T extends Entity, K extends Filter> ext
         }
 
         T updatedEntity = getRepository().save(existingEntity);
-        getRepository().flush();
         log.info("Updated {}", updatedEntity);
 
         eventPublisher.publishEvent(new EntityChangeEvent(this, clonedExistingEntity, updatedEntity, EntityChangeEvent.ActionType.UPDATE));
@@ -172,8 +170,7 @@ public abstract class GeneralServiceImpl<T extends Entity, K extends Filter> ext
 
         this.beforeDelete(entity);
 
-        getRepository().deleteById(id);
-        getRepository().flush();
+        getRepository().delete(entity);
         log.info("Deleted {}", entity);
 
         if (entity instanceof TraceableEntity) {

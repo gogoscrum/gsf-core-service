@@ -40,7 +40,7 @@ You are free to:
 <dependency>
     <groupId>com.shimi</groupId>
     <artifactId>shimi-gsf-core</artifactId>
-    <version>1.1.1-SNAPSHOT</version>
+    <version>1.1.2-SNAPSHOT</version>
 </dependency>
 ```
 
